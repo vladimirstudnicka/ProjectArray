@@ -23,18 +23,20 @@ public class MyArray {
 
         i = 0;
         while (i < 10) {
-            System.out.println(arr[i] + " ");
+            System.out.print(arr[i] + " ");
+            i++;
         }
         System.out.println();
         i = 9;
         do {
-            System.out.println(arr[i] + " ");
+            System.out.print(arr[i] + " ");
             i--;
         } while (i>=0);
 
+        System.out.println();
         for (i=0;i<10;i++)
             if (arr[i]%2==0)
-                System.out.println(arr[i]+" ");
+                System.out.print(arr[i]+" ");
     }
 
     public static void test2For() {
